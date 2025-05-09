@@ -20,3 +20,7 @@ function testFizzBuzzOutput(input, expectedOutput) {
 }
 
 testFizzBuzzOutput(1, '1');
+testFizzBuzzOutput(3, '1 2 Fizz');
+testFizzBuzzOutput(5, '1 2 Fizz 4 Buzz');
+testFizzBuzzOutput(10, '1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz');
+testFizzBuzzOutput(15, '1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz');
