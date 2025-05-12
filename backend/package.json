@@ -1,0 +1,17 @@
+{
+  "name": "parking_management",
+  "version": "1.0.0",
+  "description": "Vehicle Fleet parking management",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "Clara Grimault",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0"
+  }
+}
