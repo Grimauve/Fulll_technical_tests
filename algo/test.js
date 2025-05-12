@@ -5,12 +5,15 @@ function testFizzBuzzOutput(input, expectedOutput) {
     const logs = [];
     const originalLog = console.log;
 
+    // Capture console.log output
     console.log = (msg) => logs.push(msg);
 
     fizzBuzz(input);
 
+    // Restore console.log
     console.log = originalLog;
 
+    // Rebuild output
     const res = logs.join("\n");
 
     if (res === expectedOutput) {
