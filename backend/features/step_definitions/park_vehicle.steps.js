@@ -1,3 +1,4 @@
+const { parkVehicle } = require('../../src/Domain/Vehicle.js');
 const { Given, When, Then } = require('@cucumber/cucumber');
 const assert = require('assert');
 
